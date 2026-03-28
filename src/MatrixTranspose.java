@@ -11,9 +11,9 @@ a[i][j]=sc.nextInt();
 }
 for(int i=0;i<n;i++){
 for(int j=i+1;j<n;j++){
-int temp=a[i][j];
+int t=a[i][j];
 a[i][j]=a[j][i];
-a[j][i]=temp;
+a[j][i]=t;
 }
 }
 for(int i=0;i<n;i++){
@@ -23,6 +23,4 @@ System.out.print(a[i][j]+" ");
 System.out.println();
 }
 }
-
-    
 }
